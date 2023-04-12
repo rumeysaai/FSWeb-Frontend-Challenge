@@ -41,7 +41,8 @@ const Profile = () => {
                     </div>
                     <div className="profile-about">
                         <H3>About Me</H3>
-                        <p className="dark:text-gray-200 text-xl text-neutral-500">{profile.about}</p>
+                        <p className="dark:text-gray-200 text-xl text-neutral-500">{profile.about1}</p>
+                        <p className="dark:text-gray-200 text-xl text-neutral-500 mt-4">{profile.about2}</p>
                     </div>
                 </div>
                 <hr></hr>

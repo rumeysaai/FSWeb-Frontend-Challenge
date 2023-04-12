@@ -16,10 +16,10 @@ const Footer = ({mode}) => {
                 <h2 className="text-5xl font-semibold dark:text-indigo-200">Let's work together on your next product.</h2>
                 <p className="text-xl font-semibold text-pink-700 underline mb-8 dark:text-violet-300">{contact.email}</p>
             </div>
-            <div className="right">
-                <a className="font-semibold text-xl dark:text-blue-100"href={contact.blog}>Personal Blog</a>
-                <a className="font-semibold text-xl" href={contact.github}>Github</a>
-                <a className="font-semibold text-xl" href={contact.linkedin}>Linkedin</a>
+            <div className="right flex justify-end items-center">
+                <a className="font-semibold mt-24 ml-8 text-xl dark:text-blue-100"href={contact.blog}>Personal Blog</a>
+                <a className="font-semibold mt-24 ml-8 text-xl" href={contact.github}>Github</a>
+                <a className="font-semibold mt-24 ml-8 text-xl" href={contact.linkedin}>Linkedin</a>
             </div>
         </div>
     )

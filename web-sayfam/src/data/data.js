@@ -52,7 +52,8 @@ const jsonData=[
                 "city": "İstanbul",
                 "education": "İstanbul Uni, Landscape Architecture, 2017",
                 "preference": "Frontend, UI",
-                "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu mollit anim id est laborum."
+                "about1": "Hi, I'm Rumeysa. I'm a full-stack software developer. When i started to learn software I loved it and the most important reason to i want to learn how to write code, I have a big apetite to learn and I always attach great improtance to self improvement.",
+                "about2":"If you are looking for a developer who to craft solid scalable frontend products with great user experiences. Let's shake hands with me."
             },
         "projects":
         [
@@ -63,7 +64,7 @@ const jsonData=[
                 "description":"This project is a motivation diary and blog project which i applied redux thunk middleware.",
                 "tools":["react", "redux", "axios"],
                 "repo":"https://github.com/rumeysaai/fsweb-s10-challenge",
-                "url":""
+                "url":"https://motivation-diary.vercel.app/"
             },
             {
                 "id":2,
@@ -72,7 +73,7 @@ const jsonData=[
                 "description":"This project is an online order form page project which i applied useState and useEffect hooks.",
                 "tools":["react", "axios"],
                 "repo":"https://github.com/rumeysaai/fsweb-s7-challenge-pizza",
-                "url":""
+                "url":"https://order-pizza-plum.vercel.app/"
             },
             {
                 "id":3,
@@ -81,7 +82,7 @@ const jsonData=[
                 "description":"This project is a mini movie watchlist creation project which i applied redux concept.",
                 "tools":["react", "redux", "axios"],
                 "repo":"https://github.com/rumeysaai/fsweb-s10g3-redux-watchlist",
-                "url":""
+                "url":"https://watchlist-rouge.vercel.app/"
             }
         ],
         "contact":

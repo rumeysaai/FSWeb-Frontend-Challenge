@@ -1,12 +1,37 @@
 import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const SwitchMode = ({changeMode}) => {
+const SwitchMode = ({ changeMode }) => {
 
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     const toggleDarkMode = () => {
         setDarkMode(prevDarkMode => !prevDarkMode);
         changeMode(darkMode)
+
+        notify();
+    }
+    const notify = () => {
+        darkMode ? toast("Switched to dark mode!", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            }) : toast("Switched to light mode!", {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                });
     }
 
     return (
@@ -19,7 +44,7 @@ const SwitchMode = ({changeMode}) => {
                     dark:peer-focus:ring-indigo-800 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] 
                     after:absolute after:top-0.5 after:left-[2px] after:bg-white  after:border-gray-300 after:border after:rounded-full 
                     after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-indigo-600"></div>
-                    <span className="ml-3 text-sm font-bold text-gray-500 dark:text-gray-200">{darkMode ?  "DARK MODE" : "LIGHT MODE" }</span>
+                    <span className="ml-3 text-sm font-bold text-gray-500 dark:text-gray-200">{darkMode ? "DARK MODE" : "LIGHT MODE"}</span>
                 </label>
             </div>
             <div>
@@ -28,6 +53,7 @@ const SwitchMode = ({changeMode}) => {
             <div className="lang-mode">
                 <a className="ml-3 text-sm font-bold text-neutral-500 dark:text-gray-200"><span className="text-md font-bold text-indigo-700 dark:text-indigo-300">TÜRKÇE</span> 'YE GEÇ</a>
             </div>
+            <ToastContainer />
         </div>
     )
 }

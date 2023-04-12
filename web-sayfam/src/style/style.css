@@ -28,13 +28,7 @@
     height: 30vh;
 }
 .right{
-    display: flex;
     flex-grow: .5;
-    justify-content: flex-end;
-    align-items: center;
-}
-.right a{
-    margin:4rem 0 0 2rem;
 }
 .right a:nth-child(2){
     color:rgb(93, 197, 128);
