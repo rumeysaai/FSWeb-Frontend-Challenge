@@ -7,9 +7,10 @@ import { BrowserRouter } from 'react-router-dom';
 import { applyMiddleware, legacy_createStore as createStore } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
+import logger from 'redux-logger'
 import reducer from './reducers/reducers';
 
-const store = createStore(reducer, applyMiddleware(thunk));
+const store = createStore(reducer, applyMiddleware(thunk, logger));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -14,7 +14,6 @@ import './App.css';
 function App() {
   const [mode, changeMode] = useMode("dark");
 
-
   return (
     <div className={"App dark:bg-zinc-900"}>
       <Routes>

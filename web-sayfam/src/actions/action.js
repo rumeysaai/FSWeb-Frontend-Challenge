@@ -19,7 +19,7 @@ export const getData = () => dispatch => {
 
 export const createOffer = (endpoint)=> dispatch => {
     dispatch({ type: CREATE_OFFER })
-    axios.post("https://6436d3b38205915d34fdf79b.mockapi.io/", endpoint)
+    axios.post("https://reqres.in/api/orders", endpoint)
     .then(res=>{
         dispatch({ type: FETCH_SUCCESS, payload: res.data });
         console.log(res.data);

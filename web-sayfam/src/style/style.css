@@ -37,6 +37,5 @@
     color:rgb(64, 117, 197);
 }
 .about-container, .skills-container, .header-container, .profile-container, .projects-container{
-   width: 85vw; 
-   
+   width: 85vw;
 }
