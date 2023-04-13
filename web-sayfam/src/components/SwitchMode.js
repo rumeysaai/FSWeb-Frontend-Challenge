@@ -14,7 +14,7 @@ const SwitchMode = ({ changeMode }) => {
     }
     const notify = () => {
         darkMode ? toast("Switched to dark mode!", {
-            position: "top-right",
+            position: "top-left",
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -23,7 +23,7 @@ const SwitchMode = ({ changeMode }) => {
             progress: undefined,
             theme: "dark",
             }) : toast("Switched to light mode!", {
-                position: "top-right",
+                position: "top-left",
                 autoClose: 3000,
                 hideProgressBar: false,
                 closeOnClick: true,

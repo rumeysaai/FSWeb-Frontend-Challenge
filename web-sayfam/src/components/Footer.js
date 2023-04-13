@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import { getData } from "../actions/action";
 
-const Footer = ({mode}) => {
+const Footer = () => {
     const contact = useSelector((store) => store.contact)
     const dispatch = useDispatch();
 
