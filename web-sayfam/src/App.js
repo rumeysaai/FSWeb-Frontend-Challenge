@@ -12,14 +12,14 @@ import useMode from './hooks/useMode';
 import './App.css';
 
 function App() {
-  const [mode, changeMode] = useMode("dark");
+  const [mode, changeMode] = useMode("light");
 
   return (
     <div className={"App dark:bg-zinc-900"}>
       <Routes>
         <Route path="/" element={
         <>
-        <SwitchMode changeMode={changeMode} />
+        <SwitchMode mode={mode} changeMode={changeMode} />
           <Header />
           <About />
           <Skills />

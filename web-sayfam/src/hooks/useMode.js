@@ -9,6 +9,6 @@ const useMode =(key, initialValue)=>{
         setTheme(updatedMode);
         document.getElementsByTagName("html")[0].setAttribute("class", updatedMode ? "dark": "light")
     }
-    return [dark, changeMode]
+    return [theme, changeMode]
 }
 export default useMode;

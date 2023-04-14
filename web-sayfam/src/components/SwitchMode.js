@@ -2,12 +2,13 @@ import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const SwitchMode = ({ changeMode }) => {
+const SwitchMode = ({ changeMode, mode }) => {
 
     const [darkMode, setDarkMode] = useState(true);
 
     const toggleDarkMode = () => {
-        setDarkMode(prevDarkMode => !prevDarkMode);
+
+        setDarkMode(!darkMode);
         changeMode(darkMode)
 
         notify();
@@ -15,7 +16,7 @@ const SwitchMode = ({ changeMode }) => {
     const notify = () => {
         darkMode ? toast("Switched to dark mode!", {
             position: "top-left",
-            autoClose: 3000,
+            autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -24,7 +25,7 @@ const SwitchMode = ({ changeMode }) => {
             theme: "dark",
             }) : toast("Switched to light mode!", {
                 position: "top-left",
-                autoClose: 3000,
+                autoClose: 2000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
@@ -38,8 +39,8 @@ const SwitchMode = ({ changeMode }) => {
         <div className="switch-container flex justify-end pt-8 my-0 mx-auto">
             <div className="dark-mode">
                 <label className="relative inline-flex items-center cursor-pointer">
-                    <input type="checkbox" value="" className="sr-only peer" />
-                    <div onClick={toggleDarkMode} className="w-11 h-6 bg-gray-600 rounded-full peer 
+                    <input onClick={toggleDarkMode} type="checkbox" value="" className="sr-only peer" />
+                    <div className="w-11 h-6 bg-gray-600 rounded-full peer 
                     dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-indigo-300 
                     dark:peer-focus:ring-indigo-800 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] 
                     after:absolute after:top-0.5 after:left-[2px] after:bg-white  after:border-gray-300 after:border after:rounded-full 
