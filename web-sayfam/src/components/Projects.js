@@ -12,7 +12,7 @@ const Projects = () => {
         dispatch(getData())
     }, [])
     return (
-        <div className="projects-container mx-auto text-left" id="projects">
+        <div className="projects-container mx-auto text-left max-w-screen-xl" id="projects">
             <H2>Projects</H2>
             <Project projects={projects} />
         </div>

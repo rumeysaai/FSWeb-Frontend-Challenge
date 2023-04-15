@@ -58,7 +58,7 @@ const Form = () => {
     }, [message])
 
     return (
-        <div className="h-full">
+        <div className="h-full max-w-screen-xl">
             <div className="header-container flex justify-between mx-auto pt-8 mb-20">
                 <div className="circle dark:bg-indigo-600">
                     <p className="text-indigo-500 font-semibold dark:text-indigo-200">R</p>

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getData } from "../actions/action";
 import { NavLink } from "react-router-dom";
+import '../style/style.css';
 
 const About = () => {
 
@@ -13,9 +14,9 @@ const About = () => {
     }, [])
     return (
 
-        <div className="about-container mb-28 flex mx-auto">
+        <div className="about-container mb-28 flex mx-auto max-w-screen-xl">
             <div className="about-texts flex text-left flex-col">
-                <h2 className="text-base text-indigo-700 font-semibold dark:text-indigo-300">{aboutMe.name}</h2>
+                <h2 className="text-name text-base text-indigo-700 font-semibold dark:text-indigo-300">{aboutMe.name}</h2>
                 <h1 className="my-10 text-7xl font-bold dark:text-indigo-100 w-4/5" >{aboutMe.header}</h1>
                 <p className="dark:text-gray-200 text-xl text-neutral-500 w-10/12">{aboutMe.description}</p>
                 <div className="about-links flex">

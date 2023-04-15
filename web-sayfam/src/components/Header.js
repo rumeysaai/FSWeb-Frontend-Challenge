@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="header-container flex justify-between mx-auto mt-8 mb-20">
+        <div className="header-container flex justify-between mx-auto mt-8 mb-20 max-w-screen-xl">
             <div className="circle dark:bg-indigo-600">
                 <p className="text-indigo-500 font-semibold dark:text-indigo-200">R</p>
             </div>

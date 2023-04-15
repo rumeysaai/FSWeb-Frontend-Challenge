@@ -12,39 +12,83 @@ const jsonData=[
             {
                 "id":1,
                 "img":"./img/skillsimg/js.png",
-                "text":"JavaScript",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text":"JAVASCRIPT",
             },
             {
                 "id":2,
-                "img":"./img/skillsimg/react.png",
-               "text":"React.Js",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "img":"./img/skillsimg/phyton.png",
+               "text":"PHYTON",
             },
             {
                 "id":3,
-                "img":"./img/skillsimg/redux.png",
-                "text":"Redux",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "img":"./img/skillsimg/c.png",
+                "text":"C#",
             },
             {
                 "id":4,
                 "img":"./img/skillsimg/node.png",
-                "text":"Node.Js",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "text":"NODE",
             },
             {
                 "id":5,
-                "img":"./img/skillsimg/vscode.png",
-                "text":"Vs Code",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "img":"./img/skillsimg/net.png",
+               "text":".NET CORE",
             },
             {
                 "id":6,
+                "img":"./img/skillsimg/redux.png",
+                "text":"REACT",
+            },
+            {
+                "id":7,
+                "img":"./img/skillsimg/redux.png",
+                "text":"REDUX",
+            },
+            {
+                "id":8,
+                "img":"./img/skillsimg/tailwind.png",
+               "text":"TAILWIND CSS",
+            },
+            {
+                "id":9,
                 "img":"./img/skillsimg/figma.png",
-               "text":"Figma",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            }
+               "text":"FIGMA",
+            },
+            {
+                "id":10,
+                "img":"",
+               "text":"CQRS PATTERN",
+            },
+            {
+                "id":11,
+                "img":"",
+               "text":"OOP",
+            },
+            {
+                "id":12,
+                "img":"",
+               "text":"SOLID",
+            },
+            {
+                "id":13,
+                "img":"",
+               "text":"EF CORE",
+            },
+            {
+                "id":14,
+                "img":"",
+               "text":"MSSQL",
+            },
+            {
+                "id":15,
+                "img":"",
+               "text":"REST APIs"
+            },
+            {
+                "id":16,
+                "img":"",
+               "text":"ADOBE Ps, Ai, Id",
+            },
       ],
         "profile":
         {

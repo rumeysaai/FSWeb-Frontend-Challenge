@@ -1,15 +1,17 @@
-.switch-container{
+.switch-container {
     width: 85vw;
 }
 
-.circle{
+.circle {
     background-color: rgb(224, 222, 252);
     padding: 1rem;
     border-radius: 50%;
+    width: 3.5rem;
+    margin: 2rem;
 }
 
 .skill-item {
-    width: 30%;
+    min-width: 150px;
 }
 
 .profile-about {
@@ -24,18 +26,141 @@
     padding: 0 .5rem;
 }
 
-.footer-container{
+.footer-container {
     height: 30vh;
 }
-.right{
+
+.right {
     flex-grow: .5;
 }
-.right a:nth-child(2){
-    color:rgb(93, 197, 128);
+
+.right a:nth-child(2) {
+    color: rgb(93, 197, 128);
 }
-.right a:nth-child(3){
-    color:rgb(64, 117, 197);
+
+.right a:nth-child(3) {
+    color: rgb(64, 117, 197);
 }
-.about-container, .skills-container, .header-container, .profile-container, .projects-container{
-   width: 85vw;
+
+.about-container,
+.skills-container,
+.header-container,
+.profile-container,
+.projects-container {
+    width: 85vw;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+    .header-container {
+        margin: 1rem auto;
+    }
+
+    .header-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-links>a {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.75rem;
+        margin:0 auto;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-texts>h1 {
+        font-size: 3.75rem;
+        margin: 2rem auto;
+    }
+
+    .about-texts>p {
+        font-size: 1.5rem;
+        margin: 2rem auto;
+        text-align: justify;
+    }
+
+    .about-texts {
+        justify-content: center;
+        text-align: justify;
+        margin: 2rem auto;
+    }
+
+    .about-texts>h2 {
+        font-size: 1.5rem;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .about-links {
+        justify-content: space-around;
+    }
+
+    .about-links a {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .skill-item>img {
+        width: 12rem;
+        margin: 2rem auto;
+    }
+
+    .skill-item {
+        min-width: 300px;
+        justify-content: center;
+    }
+
+    .skill-item>p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .profile-content {
+        flex-direction: column;
+    }
+
+    .profile-item {
+        margin: 2rem auto;
+    }
+
+    .p-item>p,
+    .p-item>h4,
+    .profile-about>p {
+        font-size: 1.5rem;
+    }
+
+    .profile-about>h3,
+    .profile-header>h3 {
+        font-size: 2.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .project-sub-cont {
+        flex-direction: column;
+    }
+    .project-item{
+        width:85%;
+        margin:5rem auto;
+    }
+    .project-item>h3{
+        font-size: 2.2rem;
+    }
+    .project-item>p, .links>a, .tools>a{
+        font-size: 1.5rem;
+    }
+    .left>h2{
+        font-size:2.5rem
+    }
+    .left{
+        width:45%;
+    }
+
 }

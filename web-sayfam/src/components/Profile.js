@@ -11,9 +11,10 @@ const Profile = () => {
     useEffect(() => {
         dispatch(getData());
     }, [])
+    
     return (
         <>
-            <div className="profile-container mx-auto text-left">
+            <div className="profile-container mx-auto text-left max-w-screen-xl">
                 <H2>Profile</H2>
                 <div className="profile-content flex justify-between mt-4 mb-12">
                     <div className="profile-items">

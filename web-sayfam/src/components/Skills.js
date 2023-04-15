@@ -15,7 +15,7 @@ const Skills = () => {
 
     return (
         <>
-        <div className="skills-container text-left my-10 mx-auto" id="skills">
+        <div className="skills-container text-left my-10 mx-auto flex flex-col max-w-screen-xl" id="skills">
             <H2>Skills</H2> 
             <Skill skills={skills} />
             <hr></hr>

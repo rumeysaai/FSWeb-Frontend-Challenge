@@ -36,7 +36,7 @@ const SwitchMode = ({ changeMode, mode }) => {
     }
 
     return (
-        <div className="switch-container flex justify-end pt-8 my-0 mx-auto">
+        <div className="switch-container flex justify-end pt-8 my-0 mx-auto max-w-screen-xl">
             <div className="dark-mode">
                 <label className="relative inline-flex items-center cursor-pointer">
                     <input onClick={toggleDarkMode} type="checkbox" value="" className="sr-only peer" />
