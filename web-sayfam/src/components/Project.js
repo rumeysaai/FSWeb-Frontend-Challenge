@@ -1,9 +1,9 @@
 import H3 from '../atoms/H3';
 const Project = ({ projects }) => {
     return (
-        <div className="project-sub-cont flex justify-between">
+        <div className="project-sub-cont flex flex-wrap justify-between mb-20">
             {projects.map((project) => (
-                <div className="project-item mt-8 w-3/12 mb-32" key={project.id} >
+                <div className="project-item mt-8 w-3/12 mb-12 mx-6" key={project.id} >
                     <img src={project.img} />
                     <H3>{project.name}</H3>
                     <p className="text-neutral-500 my-4 dark:text-stone-100">{project.description}</p>

@@ -127,6 +127,33 @@ const jsonData=[
                 "tools":["react", "redux", "axios"],
                 "repo":"https://github.com/rumeysaai/fsweb-s10g3-redux-watchlist",
                 "url":"https://watchlist-rouge.vercel.app/"
+            },
+            {
+                "id":4,
+                "img":"./img/projectsimg/p4.png",
+                "name":"Grid",
+                "description":"This project is a moving grid game project which i applied http post request and react testing library.",
+                "tools":["react", "testing library", "axios"],
+                "repo":"https://github.com/rumeysaai/FSWeb-S9-Sprint-Challenge",
+                "url":""
+            },
+            {
+                "id":5,
+                "img":"./img/projectsimg/p5.png",
+                "name":"APOD Nasa",
+                "description":"This project is an astronomy picture of the day project which i applied get request to Nasa API.",
+                "tools":["react", "testing library", "axios"],
+                "repo":"https://github.com/rumeysaai/FSWeb-S6G3-Nasa",
+                "url":"https://nasa-5btidlmxg-rumeysaai.vercel.app/"
+            },
+            {
+                "id":6,
+                "img":"./img/projectsimg/p6.png",
+                "name":"Movie Database",
+                "description":"This project is a movie database project which i applied CRUD request to an API.",
+                "tools":["react", "testing library", "axios"],
+                "repo":"https://github.com/rumeysaai/fsweb-s11g3-crud-filmler",
+                "url":""
             }
         ],
         "contact":
