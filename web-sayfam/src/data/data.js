@@ -12,72 +12,72 @@ const jsonData=[
             {
                 "id":1,
                 "img":"./img/skillsimg/js.png",
-                "text":"JAVASCRIPT",
+                "text":"JAVASCRIPT"
             },
             {
                 "id":2,
                 "img":"./img/skillsimg/phyton.png",
-               "text":"PHYTON",
+               "text":"PHYTON"
             },
             {
                 "id":3,
                 "img":"./img/skillsimg/c.png",
-                "text":"C#",
+                "text":"C#"
             },
             {
                 "id":4,
                 "img":"./img/skillsimg/node.png",
-                "text":"NODE",
+                "text":"NODE"
             },
             {
                 "id":5,
                 "img":"./img/skillsimg/net.png",
-               "text":".NET CORE",
+               "text":".NET CORE"
             },
             {
                 "id":6,
-                "img":"./img/skillsimg/redux.png",
-                "text":"REACT",
+                "img":"./img/skillsimg/react.png",
+                "text":"REACT"
             },
             {
                 "id":7,
                 "img":"./img/skillsimg/redux.png",
-                "text":"REDUX",
+                "text":"REDUX"
             },
             {
                 "id":8,
                 "img":"./img/skillsimg/tailwind.png",
-               "text":"TAILWIND CSS",
+               "text":"TAILWIND CSS"
             },
             {
                 "id":9,
                 "img":"./img/skillsimg/figma.png",
-               "text":"FIGMA",
+               "text":"FIGMA"
             },
             {
                 "id":10,
                 "img":"",
-               "text":"CQRS PATTERN",
+               "text":"CQRS PATTERN"
             },
             {
                 "id":11,
                 "img":"",
-               "text":"OOP",
+               "text":"OOP"
             },
             {
                 "id":12,
                 "img":"",
-               "text":"SOLID",
+               "text":"SOLID"
             },
             {
                 "id":13,
                 "img":"",
-               "text":"EF CORE",
+               "text":"EF CORE"
             },
             {
                 "id":14,
                 "img":"",
-               "text":"MSSQL",
+               "text":"MSSQL"
             },
             {
                 "id":15,
@@ -87,8 +87,8 @@ const jsonData=[
             {
                 "id":16,
                 "img":"",
-               "text":"ADOBE Ps, Ai, Id",
-            },
+               "text":"ADOBE Ps, Ai, Id"
+            }
       ],
         "profile":
         {
