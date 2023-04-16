@@ -8,7 +8,7 @@ export const FETCH_ERROR = "FETCH_ERROR";
 export const getData = () => dispatch => {
     dispatch({ type: GET_DATA })
     axios
-        .get("https://mocki.io/v1/79e0777f-f2cc-4c49-b250-875f187c88c6")
+        .get("https://mocki.io/v1/80379afd-be70-4870-9317-6fc0a1f4e183")
         .then(res => {
             dispatch({ type: FETCH_SUCCESS, payload: res.data });
             console.log(res.data);
