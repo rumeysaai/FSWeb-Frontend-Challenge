@@ -95,7 +95,7 @@ const jsonData=[
                 "birthday": "23.12.1994",
                 "city": "İstanbul",
                 "education": "İstanbul Uni, Landscape Architecture, 2017",
-                "preference": "Frontend, UI",
+                "preference": "Fullstack",
                 "about1": "Hi, I'm Rumeysa. I'm a full-stack software developer. When i started to learn software I loved it and the most important reason to i want to learn how to write code, I have a big apetite to learn and I always attach great improtance to self improvement.",
                 "about2":"If you are looking for a developer who to craft solid scalable frontend products with great user experiences. Let's shake hands with me."
             },
