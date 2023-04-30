@@ -1,4 +1,4 @@
-import { FETCH_SUCCESS, FETCH_ERROR, GET_DATA, CREATE_OFFER } from "../actions/action";
+import { FETCH_SUCCESS, FETCH_ERROR, GET_DATA, } from "../actions/action";
 
 const initialState = {
     about: {},
@@ -17,11 +17,6 @@ const reducer = (state = initialState, action) => {
             return{
                 ...state,
                 isLoading:true
-            };
-        case CREATE_OFFER:
-            return{
-                ...state,
-                message:action.payload
             };
         case FETCH_SUCCESS:
             return{
