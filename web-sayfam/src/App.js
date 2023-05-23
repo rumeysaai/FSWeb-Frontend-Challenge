@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import SwitchMode from './components/SwitchMode';
 import Form from './components/Form';
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import useMode from './hooks/useMode';
 
 import './App.css';
@@ -18,14 +18,14 @@ function App() {
     <div className={"App dark:bg-zinc-900"}>
       <Routes>
         <Route path="/" element={
-        <>
-        <SwitchMode mode={mode} changeMode={changeMode} />
-          <Header />
-          <About />
-          <Skills />
-          <Profile />
-          <Projects />
-          <Footer /> 
+          <>
+            <SwitchMode mode={mode} changeMode={changeMode} />
+            <Header />
+            <About />
+            <Skills />
+            <Profile />
+            <Projects />
+            <Footer />
           </>
         }>
         </Route>
